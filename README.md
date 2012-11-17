@@ -1,8 +1,5 @@
 # [Comp1950 Final Project -- TeamOne]
 
-HTML5 Boilerplate is a professional front-end template for building fast,
-robust, and adaptable web apps or sites.
-
 This project is a school project for course comp 1950
 
 ## Team Members
