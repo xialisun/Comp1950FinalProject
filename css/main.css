@@ -121,7 +121,7 @@ nav a {
 	text-decoration: none;
 	text-align: center;
 	color: black;
-    padding: 5px;
+    padding: 5px 20px;
 }
 nav .current{
 	background-color: #3979AF;
@@ -163,12 +163,15 @@ nav a:active {
 	max-width:700px;
 }
 
-figcaption {margin: .75em 0;
+figcaption {margin: 0;
 		text-align: center;
 		font-style: italic;
-		line-height: 1.5em;
+		line-height: 1em;
 		}
 
+figcaption p {margin-top:0}
+
+		
 td		{padding-left:50px;
 		text-align:left;
 		vertical-align:top;
