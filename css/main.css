@@ -92,14 +92,27 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-body{
+#container {
 	width: 800px;
 	margin: 0 auto;
 }
-h1 {
-	margin-left: 40px;
-	color: grey;
+
+#logo {
+    float: left;
+    margin-right: 20px;
 }
+
+header {
+    margin: 10px 0;
+}
+
+header h1 {
+    font-family: "Verdana", Helvetica, sans-serif;
+    font-weight: normal;
+    color: #3979AF;
+	margin: 0 20px;
+}
+
 nav li {
 	display: inline-block;
 }
@@ -111,21 +124,39 @@ nav a {
     padding: 5px;
 }
 nav .current{
-	background: grey;
-	opacity: 0.6;	
+	background-color: #3979AF;
+    color: white;
     padding: 5px;
+    border-radius: 3px;
 }
 nav a:hover {
-	background-color: grey;
-	opacity:0.6;
+	background-color: #3979AF;
+    color: white;
+    border-radius: 3px;
 }
 nav a:active {
-	background-color: lightblue;
-	opacity:0.6;	
+	background-color: #C7DBEC;
 }
 
 #content {
-	margin-left:40px;
+	margin: 0 20px;
+}
+
+#content h2 {
+    font-family: "Verdana", Helvetica, sans-serif;
+    font-weight: normal;
+    color: white;
+    text-transform: lowercase;
+    padding: 0 10px;
+    
+    background: #3979af; /* Old browsers */
+    background: -moz-linear-gradient(45deg, #3979af 0%, #c7dbec 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left bottom, right top, color-stop(0%,#3979af), color-stop(100%,#c7dbec)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(45deg, #3979af 0%,#c7dbec 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(45deg, #3979af 0%,#c7dbec 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(45deg, #3979af 0%,#c7dbec 100%); /* IE10+ */
+    background: linear-gradient(45deg, #3979af 0%,#c7dbec 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3979af', endColorstr='#c7dbec',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
 }
 
 #wireframeimage img{
