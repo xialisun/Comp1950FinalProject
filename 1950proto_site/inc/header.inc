@@ -11,5 +11,5 @@
 	</div>
 </header>
 <div id="logo">
-	<img src="bcit-logo.jpg" alt="bcit logo" />
+	<img src="image/bcit-logo.jpg" alt="bcit logo" />
 </div>
