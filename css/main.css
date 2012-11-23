@@ -163,6 +163,11 @@ nav a:active {
 	max-width:700px;
 }
 
+
+figure img	{margin:auto;
+		}
+
+
 figcaption {margin: 0;
 		text-align: center;
 		font-style: italic;
@@ -172,10 +177,13 @@ figcaption {margin: 0;
 figcaption p {margin-top:0}
 
 		
-td		{padding-left:50px;
-		text-align:left;
+td		{text-align:left;
 		vertical-align:top;
 		}
+		
+td ul		{padding-left:100px;
+		padding-top:0px;
+		margin:0px;}
 
 
 
