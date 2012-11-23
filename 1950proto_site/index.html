@@ -1,61 +1,201 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="UTF-8">
-        <title>BCIT Comp 1950</title>
-        <meta name="author" content="Comp 1950 Group 1">
-        <meta name="description" content="A prototype site for a rework of the existing BCIT Comp1950 student site">
-        <link rel="stylesheet" href="css/normalize.css" type="text/css">
-        <link rel="stylesheet" href="css/main.css" type="text/css">
-    </head>
-    <body>
+<head>
+    <title>Comp 1950 Home/Outline</title>
+    <!--javascript include-->
+<!--stylesheet include-->
+    <link rel="Stylesheet" type="text/css" href="css/normalize.css" media="screen" />
+<link rel="stylesheet" type="text/css" href="css/main.css" media="screen"/>
+</head>
+<body	id="wrapper">
 
-    <body id="wrapper">
+<!-- using SSI for header-->
+<!--#include file="inc/header.inc"-->
 
-        <!-- using SSI for header-->
-        <!--#include file="inc/header.inc"-->
+<!-- using SSI for top Navigation -->
+<!--#include file="inc/nav.inc"-->
 
-        <!-- using SSI for top Navigation -->
-        <!--#include file="inc/nav.inc"-->
+<section>
+<div id="right-lectures"
 
-        <section>
-            <!--lecture by week & agenda info goes here -->
-            <nav>
-                <div id="agendabar">
-                    comp 1950 > introduction
-                </div>
-                <p>
-                    Agenda - intro, outline, webspace, FTP, Assignment
-                </p>
-            </nav>
-        </section>
+<h2><a href="http://comp1950team1.tumblr.com">Blog</a></h2>
 
-        <section>
-            <div id="right-lectures">
-                <h2>Lectures</h2>
-                <!-- some example lists -->
-                <a href="http://www.thenet.ca/1950/week1/">01 | introduction</a>
-                <a href="http://www.thenet.ca/1950/week2/">02 | tools &amp; standards</a>
-                <a href="http://www.thenet.ca/1950/week3/">03 | HTML 5 &amp; SEO</a>
-            </div>
-        </section>
+<h2>Lectures</h2>
+<!-- some example lists -->
+<a href="http://www.thenet.ca/1950/week1/">01 | introduction</a><!-- have to take out the outlines -->
+<a href="http://www.thenet.ca/1950/week2/">02 | tools &amp; standards</a>
+<a href="http://www.thenet.ca/1950/week3/">03 | HTML 5 &amp; SEO</a>
+<a href="http://www.thenet.ca/1950/week4/">04 | css concepts</a>
+</div>
+</section>
 
-        <section>
-            <div id="content">
-                <!--Home/protosite info here-->
-                <h2>Home/Proto-Site:</h2>
+<div id="agendabar">comp 1950 &gt; welcome, outline</div>
 
-            </div>
-        </section>
+<div id="content">
+	<div id="subheading">
+	<h1>welcome!</h1>
+		<div class="content-block">
+		<p>the agenda for week 1 is the following:
+		<ul>
+			<li>about this course (outline, administrivia, assignments, etc)</li>
+			<li>introductions (me, you)</li>
+			<li>web space (thenet.ca)</li>
+			<li>some expectations &amp; reminders</li>
+			<li>today's assignment</li>
+		</ul>
+		</p>
+		</div>
 
-        <section>
-            <div id="bottonnav">
-                <a href="#top">Top of Page</a> | <a href="/">Home</a>
-        </section>
+	<h2>About this course</h2>
+	<div class="content-block">
+	<p><strong>Official</strong> details about the who, what, where and how are located in the <a href="http://www.bcit.ca/study/courses/comp1950">course info</a> section</p>
 
-        <!-- using SSI for footer -->
-        <!--#include file="inc/footer.inc"-->
+	<p>Some more information you might like to know:
+	<ul>
+		<li>More theory than in 1850</li>
+		<li>Still a fair amount of practical experience</li>
+		<li>Hands on coding and working in teams</li>
+		<li>Real-life methods taken from developers</li>
+		<li>Class and homework exercises</li>
 
-    </body>
+	<li><ul>
+			<li>Assignments (various): 20%</li>
+			<li>Quizzes (2): 20%</li>
+			<li>Project: 30%</li>
+			<li>Final Exam: 30%</li>
+		</ul>
+	</li>
+	</ul>
+
+<h2>Assignments</h2>
+<ul>
+	<li>Generally given during the lab portion, due the following week</li>
+	<li>Linked from your COMP 1950 page (more on that later)</li>
+</ul>
+
+<h2>Quizzes &amp; final exam</h2>
+
+All quizzes will feature <em>at least</em> one, and <em>possibly</em> all of the following question types:
+<ul>
+
+<li>fill-in-the-blanks</li>
+<li>short answer</li>
+<li>matching</li>
+<li>code correction</li>
+<li>code writing</li>
+</ul>
+</div>
+		<h2>Expectations &amp; reminders</h2>
+		<div class="content-block">
+		<p>This course is about Web Development.  This means you should conduct yourself as Web Developers!</p>
+		<p>What does this mean? It means you should understand the following:</p>
+			<dl>
+				<dt>FTP</dt>
+				<dd>If you don't understand FTP (File Transfer Protocol) right now, that's ok. After week 2 - don't ask me. This is a <strong>required</strong> skill</dd>
+				
+				<dt>File/Folder Names</dt>
+				<dd>While it is technically possible, my recommendation is that you do NOT use capital letters, and I <strong>require</strong> that you do NOT use spaces in your file or folder names. Special Characters (those characters over the numbers on your keyboard) just won't work.</dd>
+				
+				<dt>Web Space</dt>
+				<dd>The student web space is: <strong>students.thenet.ca/(student_name)</strong><br>
+					Notice that there is <strong>no www</strong> at the front</dd>
+					
+				<dt>Upkeep</dt>
+				<dd>Each week, you should have your course web space (we'll set up the course web site later) up to date with assignments, exercises, etc.</dd>
+				
+				<dt>Navigation</dt>
+				<dd>Please try to make things as easy to find as possible</dd>
+			</dl>
+		</p>
+		</div>
+		
+		<h2>Other subjects?  Tailor the course!</h2>
+		<div class="content-block">
+	<ul>
+		<li>What would you <strong>like</strong> to learn about?</li>
+		<li>What are you most interested in learning?</li>
+		<li>What skills would you like to acquire?</li>
+		<li>Are there subjects not covered here?</li>
+	</ul>
+</div>
+
+	<h2>Outline</h2>
+	<div class="content-block">
+		<p>Here is the current Course Outline (by week):</p>
+		
+		<dl class="outline">
+		
+		<dt>Week 1</dt>
+		<dd>Course Introduction: (this week!)</dd>
+		<dd>Why are you here</dd>
+		<dd>What you will learn</dd>
+		<dd>Student Survey</dd>
+		<dd class="outline-last"><strong>Assignment 1:</strong> Course homepage</dd>
+			
+	<dt>Week 2</dt>
+	<dd>Web Development tools</dd>
+	<dd>Standards in Web development</dd>  
+	<dd class="outline-last"><strong>Assignment 2: </strong>Using tools &amp; standards</dd>
+
+	<dt>Week 3</dt>
+	<dd>XHTML1, XHTML 2, HTML 4, HTML 5</dd>
+	<dd>History and current developments</dd>
+	<dd>What is the best development language?</dd>
+	<dd class="outline-last"><strong>Assignment 3:</strong> Working with different MLs</dd>
+
+	<dt>Week 4</dt>
+	<dd><strong>Quiz 1:</strong> Markup</dd>
+	<dd>Review of CSS</dd>
+	<dd>Beyond text formatting</dd>
+	<dd class="outline-last"><strong>Assignment 4:</strong> Using different stylesheets</dd>
+
+	<dt>Week 5</dt>
+	<dd>Advanced CSS</dd>
+	<dd>Layout and positioning</dd>
+	<dd class="outline-last"><strong>Assignment 5:</strong> Troubleshooting CSS, Positioning Exercises</dd>
+
+	<dt>Week 6</dt>
+	<dd>Understanding Server Side Includes</dd>
+	<dd>Beyond SSIs: Delivering dynamic information</dd>
+	<dd>Introduction to template development</dd>
+	<dd class="outline-last"><strong>Assignment 6:</strong> Template</dd>
+
+	<dt>Week 7</dt>
+	<dd>&rarr; <em>Midterm</em></dd>
+	<dd>More Template Development</dd>
+	<dd>Used in Blogs, wikis, user-driven sites, communities</dd>
+	<dd class="outline-last"><strong>Assignment 7:</strong> Template II</dd>
+
+	<dt>Week 8</dt>
+	<dd>Development Methodology </dd>
+	<dd>Requirements, Design, Production, Launch, Maintenance</dd>
+	<dd><strong>Project outlined</strong></dd>
+	<dd class="outline-last"><strong>Assignment 8:</strong> Methodology Notes</dd>
+
+	<dt>Week 9</dt>
+	<dd>Behaviour</dd>
+	<dd>Adding interactivity</dd>
+	<dd>JavaScript Libraries and Frameworks</dd>
+	<dd class="outline-last"><strong>Assignment 9:</strong> Javascript exercises</dd>
+
+	<dt>Week 10</dt>
+	<dd><strong>Quiz 2</strong>: Templating a/o Methodology</dd>
+	<dd>Site Construction</dd>
+	<dd>Bringing it all together</dd>
+	<dd class="outline-last"><strong>Assignment 10</strong>: Completed site</dd>
+
+	<dt>Week 11</dt>
+	<dd class="outline-last">Project Work</dd>
+
+	<dt>Week 12</dt>
+	<dd>Final Examination</dd>
+	</dl>
+	</div>
+	
+<section>
+<div id="bottonnav">
+	<a href="#top">Top of Page</a> | <a href="/">Home</a>
+</section>
+			
+</body>
 </html>
-
