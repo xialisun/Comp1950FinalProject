@@ -138,7 +138,7 @@ nav a:active {
 	background-color: #C7DBEC;
 }
 
-#content {
+#content,footer {
 	margin: 0 20px;
 }
 
@@ -160,7 +160,7 @@ nav a:active {
 }
 
 #wireframeimage img{
-	max-width:700px;
+	max-width:940px;
 }
 
 #content.sitemap {
