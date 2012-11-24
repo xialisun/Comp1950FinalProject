@@ -190,7 +190,14 @@ td ul		{padding-left:100px;
 		padding-top:0px;
 		margin:0px;}
 
+#validators {
+	text-align:center
+}
 
+#validators img{
+	width:64px;
+	height:64px;
+}
 
 
 
