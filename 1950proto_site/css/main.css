@@ -188,12 +188,17 @@ body {
 	list-style: none;
 }
 
-#right-nav .menu-item {
+#right-nav .menu-item ,
+#right-nav .inactive {
 	color: #E60;
+    line-height: 15px;
 	padding: 5px 10px;
-    border-right: 1px solid #888;
-    border-left: 1px solid #888;
 	border-bottom: 1px solid #888;
+}
+
+#right-nav .menu-item  a {
+    display: block;
+    width: 100%;
 }
 
 #right-nav .menu-item  a:link,
@@ -206,13 +211,27 @@ body {
     background-color: #ccc;
 }
 
+#right-nav .inactive {
+    color: grey;
+}
+
 .menu-item-title {
 	font-weight: bold;
-    font-size: 16px;
 }
 
 .menu-item-desc {
     font-size: 12px;
+}
+
+#right-nav .submenu {
+    background-color: #bbb;
+    border-bottom: 1px solid #888;
+    padding: 10px 0;
+}
+
+#right-nav .subitem {
+    margin-left: 20px;
+    font-size: 14px;
 }
 
 #content {
