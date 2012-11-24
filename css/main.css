@@ -126,7 +126,7 @@ nav a {
 nav .current{
 	background-color: #3979AF;
     color: white;
-    padding: 5px;
+    padding: 5px 20px;
     border-radius: 3px;
 }
 nav a:hover {
