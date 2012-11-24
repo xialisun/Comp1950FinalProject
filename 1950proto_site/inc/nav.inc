@@ -1,8 +1,10 @@
 <nav id="right-nav">
+    <h2>Lectures</h2>
 	<ul id="accordion" class="menu">
 		<li class="menu-item">
 			<a href="#">
-				<span class="menu-item-title">01 | Home/intro</span>
+				<span class="menu-item-title">01 Home & Introduction</span><br/>
+                <span class="menu-item-desc">Introductions, First Assignment</span>
 			</a>
 		</li>
 		<ul>
