@@ -163,6 +163,11 @@ nav a:active {
 	max-width:700px;
 }
 
+#content.sitemap {
+    /* Extra padding for sitemap to avoid overlaps with the navigation menu */
+    padding: 50px 0;
+    border: none;
+}
 
 figure img	{margin:auto;
 		}
