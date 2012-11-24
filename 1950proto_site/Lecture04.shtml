@@ -252,13 +252,13 @@
 				<ul>
 					<li>Within <code>a</code> pseudo-elements in particular, it's
 						important to follow a certain order:
-					</li>
-					<ul>
-						<li>Link</li>
-						<li>Visited</li>
-						<li>Hover</li>
-						<li>Active</li>
-					</ul>
+    					<ul>
+    						<li>Link</li>
+    						<li>Visited</li>
+    						<li>Hover</li>
+    						<li>Active</li>
+    					</ul>
+                    </li>					
 					<li>Easy mnemonic: LVHA - <strong>L</strong>o<strong>V</strong>e
 						- <strong>HA</strong>te
 					</li>
@@ -339,7 +339,7 @@
 					<li>As well as grouping Elements, you can also group classes</li>
 					<li><code>.cool, .wicked { ... }</code></li>
 					<li>But you can also select those classes in your HTML</li>
-					<li><code>&lt;p class="cool wicked"&gt;</code> will actually
+					<li><code>&lt; p class="cool wicked"&gt;</code> will actually
 						select both the cool and wicked classes</li>
 					<li>Order is irrelevant</li>
 					<li>Case is important! Remember to use a single rule for CSS
@@ -403,7 +403,7 @@
 					almost all of them calculate the values identically (for once!).</p>
 
 				<p>
-					Here is how the <acronym title="World Wide Web Consortium">W3C</acronym>
+					Here is how the <abbr title="World Wide Web Consortium">W3C</abbr>
 					defines the process by which style order is determined:
 				</p>
 
@@ -415,14 +415,15 @@
 					<li><strong>Sheet Order.</strong> The primary sort of the
 						declarations is by weight and origin: for normal declarations,
 						author style sheets override user style sheets which override the
-						default style sheet.</li>
-					<ul>
-						<li class="note"><em>Note:</em> For "!important"
-							declarations, user style sheets override author style sheets
-							which override the default style sheet. "!important" declaration
-							override normal declarations. An imported style sheet has the
-							same origin as the style sheet that imported it.</li>
-					</ul>
+						default style sheet.
+    					<ul>
+    						<li class="note"><em>Note:</em> For "!important"
+    							declarations, user style sheets override author style sheets
+    							which override the default style sheet. "!important" declaration
+    							override normal declarations. An imported style sheet has the
+    							same origin as the style sheet that imported it.</li>
+    					</ul>
+    				</li>
 					<li><strong>Specificity:</strong> The secondary sort is by
 						specificity of selector: more specific selectors will override
 						more general ones. Pseudo-elements and pseudo-classes are counted

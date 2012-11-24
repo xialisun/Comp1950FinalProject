@@ -29,15 +29,14 @@
         </header>
 
         <div class="content-block">
-            <p>the agenda for week 1 is the following:
+            <p>the agenda for week 1 is the following:</p>
             <ul>
                 <li><a href="#about">about this course (outline, assignments, quizzes, administrivia etc)</a></li>
                 <li><a href="#intro-you-me">introductions (me, you</a></li>
-                <li><a href="#webspace_FTP">web space (thenet.ca) & FTP</a></li>
+                <li><a href="#webspace_FTP">web space (thenet.ca) &amp; FTP</a></li>
                 <li><a href="#expectation">some expectations &amp; reminders</a></li>
                 <li><a href="#assignment">today's assignment</a></li>
             </ul>
-            </p>
         </div>
 
         <article id="about">
