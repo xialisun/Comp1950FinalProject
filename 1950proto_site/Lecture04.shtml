@@ -58,6 +58,7 @@
             <h1>Agenda</h1>
         </header>
 
+	<article>
         <div class="content-block">
             <p>the agenda for lecture 4 is the following:</p>
             <ul>
@@ -70,10 +71,10 @@
                 <li><a href="#homework">Homework</a></li>
             </ul>
         </div>
-	
+	</article>
 
 		<article id="review-html5-assignment">
-			<h2>HTML5 Assignment</h2>
+			<header><h2>HTML5 Assignment</h2></header>
 			<div class="content-block">
 				<p>
 					Let's take a look at the <a href="http://cl.ly/1T3V1P020Y3A3A204120">week 3 assignment</a> you did and talk about using HTML5 for the markup
@@ -86,20 +87,21 @@
 		</article>
 
 		<article id="markup-quiz">
-			<h2>Quiz Markup</h2>
+			<header><h2>Quiz Markup</h2></header>
 		</article>
 
 		<article id="css-concepts">
-			<h2>css concepts</h2>
-
+			<header><h2>css concepts</h2></header>
 			<div class="content-block">
 				<p>Over the last few weeks, I re-introduced basic CSS concepts like HTML, ID, and Class Elements, as well as where to place your content: Inline, Embedded and External</p>
 
 				<p>Today, we'll take that further and talk about different ways to reference your CSS, various kinds of selectors, and working withthe most commonly used element on every web page: the link</p>
 			</div>
-					<h2>Referencing CSS</h2>
+			
+			<header><h2>Referencing CSS</h2></header>
 			<div class="content-block">
-				<h3>Linking your CSS</h3>
+				
+				<header><h3>Linking your CSS</h3></header>
 				<p>When linking to external style sheets, there are a number of things to know about linking to those external files. A standard LINK element:</p>
 
 				<code>&lt;link rel="stylesheet" type="text/css"
@@ -114,10 +116,10 @@
 					<li>Each stylesheet requires it's own <code>link</code> tag</li>
 					<li>The "media" attribute allows you to specify what medium this should be viewed in</li>
 				</ul>
-				<p></p>
+				<br />
 
-				<p></p>
-				<h3>Media variations</h3>
+				
+				<header><h3>Media variations</h3></header>
 				<ul>
 					<li><code>media="type"</code> can be a powerful tool</li>
 					<li>Examples of supported types: all, aural, braille, embossed, handheld, print, projection, screen, tty, tv</li>
@@ -127,7 +129,7 @@
 				</ul>
 
 
-				<h3>Alternate sheets</h3>
+				<header><h3>Alternate sheets</h3></header>
 				<p>You can also have alternate stylesheets supported</p>
 				<ul>
 					<li>This can be done by using <code>rel="alternate
@@ -155,7 +157,7 @@
 				</ul>
 
 
-				<h3>The @import Method</h3>
+				<header><h3>The @import Method</h3></header>
 				<ul>
 					<li>There is another method: @import</li>
 					<li>This works well when dealing with older browsers, as they
@@ -167,7 +169,7 @@
 						page (lo-fi) for older browsers</li>
 				</ul>
 
-				<h3>Example:</h3>
+				<header><h3>Example:</h3></header>
 				<p>In your document, use the following within the &lt;head&gt;
 					tag:</p>
 				<pre>&lt;link rel="stylesheet" type="text/css" href="/css/basic_styles.css" media="all" /&gt;</pre>
@@ -194,7 +196,7 @@
 					section.
 				</p>
 				<p>It is also a great place to be able to manage your CSS from</p>
-				<h3>Example:</h3>
+				<header><h3>Example:</h3></header>
 				<p>
 					From your main document, create a
 					<code>&lt;link&gt;</code>
@@ -220,7 +222,7 @@
 
 
 
-				<h3>Cool CSS Tool</h3>
+				<header><h3>Cool CSS Tool</h3></header>
 				<ul>
 					<li>Related to multiple stylesheets, remember our look at the
 						excellent Firefox Extension: Firebug</li>
@@ -232,12 +234,12 @@
 
 
 
-			<h2>CSS Selectors</h2>
+			<header><h2>CSS Selectors</h2></header>
 			<div class="content-block">
 				<p>Other than Element, Class, and ID selectors, there are many
 					more that allow you to really present your content.</p>
 
-				<h3>Universal Selector</h3>
+				<header><h3>Universal Selector</h3></header>
 				<ul>
 					<li>This is a fairly widely supported selector: the asterisk *</li>
 					<li>Use it to specify a global rule</li>
@@ -248,7 +250,7 @@
 				</ul>
 
 
-				<h3>Pseudo-classes</h3>
+				<header><h3>Pseudo-classes</h3></header>
 				<p>
 					A Pseudo-class is a selector that allows you to reference a
 					specific action or attribute of an element. This is most often used
@@ -301,7 +303,7 @@
 
 				<p>We'll cover more Pseudo-Class magic next week!</p>
 
-				<h3>Descendant Selectors</h3>
+				<header><h3>Descendant Selectors</h3></header>
 				<ul>
 					<li>Separated by a space, the last element being the key one</li>
 					<li><code>h1 em</code> will apply rules to all em's within an
@@ -316,7 +318,7 @@
 						paragraph, no matter how nested</li>
 				</ul>
 
-				<h3>Child Selectors</h3>
+				<header><h3>Child Selectors</h3></header>
 				<ul>
 					<li>Uses the &gt; combinator to specify children</li>
 					<li>Will select an element that is directly descended from
@@ -328,7 +330,7 @@
 				</ul>
 
 
-				<h3>Attribute Selectors</h3>
+				<header><h3>Attribute Selectors</h3></header>
 				<ul>
 					<li>You can also select elements by what the element contains</li>
 					<li>The method is: <code>element[attribute=value]</code></li>
@@ -350,11 +352,12 @@
 					</li>
 				</ul>
 			</div>
-			<h2>Simplifying your CSS</h2>
+			
+			<header><h2>Simplifying your CSS</h2></header>
 			<div class="content-block">
 				<p>When building your CSS rules, there are some easy ways to
 					compact your code.</p>
-				<h3>Grouping selectors</h3>
+				<header><h3>Grouping selectors</h3></header>
 				<ul>
 					<li>If you would like to apply the same style to a multitude
 						of different selectors, you can group them with the comma</li>
@@ -363,7 +366,7 @@
 					<li>Specific rules for H3 (for example) can come later</li>
 				</ul>
 
-				<h3>Grouping comes to Classes</h3>
+				<header><h3>Grouping comes to Classes</h3></header>
 				<ul>
 					<li>As well as grouping Elements, you can also group classes</li>
 					<li><code>.cool, .wicked { ... }</code></li>
@@ -378,9 +381,9 @@
 		</article>
 		
 		<article id="exercises">
-			<h2>Exercise</h2>
+			<header><h2>Exercise</h2></header>
 			<div class="content-block">
-				<h3>Using Various Selectors</h3>
+				<header><h3>Using Various Selectors</h3></header>
 				<p>While most selectors are fairly straightforward, using the
 					right ones can be a little confusing.</p>
 				<p>To get a better handle on how they work, we'll use difference
@@ -396,13 +399,12 @@
 					<li><a href="exercise/exercise2.html">Exercise 2</a></li>
 				</ul>
 				<p>Try to make your page look exactly like the example pages</p>
-
 			</div>
 
 
-			<h2>Exercise</h2>
+			<header><h2>Exercise</h2></header>
 			<div class="content-block">
-				<h3>More Attribute Selectors - Identify File Types</h3>
+				<header><h3>More Attribute Selectors - Identify File Types</h3></header>
 				<p>In this advanced exercise, you can use Attribute Selectors to
 					let your users know what kind of file they are going to download by
 					showing an icon</p>
@@ -416,14 +418,13 @@
 					<li>Using attribute selectors (and a <code>background</code>
 						property), try and get the icons to line up with each file type
 					</li>
-
 				</ul>
 			</div>
 		</article>
 		
 		<article id="specificity">
 		
-			<h2>Rule Order &amp; Specificity</h2>
+			<header><h2>Rule Order &amp; Specificity</h2></header>>
 			<div class="content-block">
 
 				<p>When a style declaration is found to be in conflict with a
@@ -476,7 +477,7 @@
 					applied to the element(s) in question.
 				</p>
 
-				<h3>Ruleset for Specificity</h3>
+				<header><h3>Ruleset for Specificity</h3></header>
 				<p>Style sheets can also override conflicting style sheets based
 					on their level of specificity, where a more specific style will
 					always win out over a less specific one. It is simply a counting
@@ -509,7 +510,7 @@
 				<p></p>
 
 
-				<h3>!Important rule</h3>
+				<header><h3>!Important rule</h3></header>
 				<ul>
 					<li>This declaration, when added to a rule, will override
 						almost all other declarations.</li>
@@ -523,7 +524,7 @@
 				</ul>
 
 
-				<h3>Rule Compacting</h3>
+				<header><h3>Rule Compacting</h3></header>
 				<ul>
 					<li>There are a lot of rules that will accept a compacted
 						ruleset</li>
@@ -546,7 +547,7 @@
 							100%/1.3em Arial, "Trebuchet MS", Sans-serif;</code></li>
 				</ul>
 
-				<h3>While we are on Fonts...</h3>
+				<header><h3>While we are on Fonts...</h3></header>
 				<ul>
 					<li>Remember to <strong>always</strong> specify multiple fonts
 					</li>
@@ -565,7 +566,7 @@
 		</article>
 
 		<article id="measurements">
-			<h2>CSS Measurements</h2>
+			<header><h2>CSS Measurements</h2></header>
 			<div class="content-block">
 
 				<p>In CSS, there are a number of measurement values that can be
@@ -579,7 +580,7 @@
 					<li>Some measurements systems are very old and rarely used</li>
 				</ul>
 
-				<h3>Size measurements</h3>
+				<header><h3>Size measurements</h3></header>
 
 				<ul>
 					<li><strong>px</strong> - Pixels is one of the most common
@@ -608,7 +609,7 @@
 						browsers base font size</li>
 				</ul>
 
-				<h3>Color Measurement</h3>
+				<header><h3>Color Measurement</h3></header>
 				<p>Colors can be specified in a number of ways, corresponding to
 					the system that your organization or visual element requires.</p>
 
@@ -638,7 +639,7 @@
 				</ul>
 			</div>
 
-			<h2>CSS Resources</h2>
+			<header><h2>CSS Resources</h2></header>
 			<div class="content-block">
 				<ul>
 					<li><strong><a
@@ -652,9 +653,9 @@
 				</ul>
 			</div>
 
-			<h2>Organizing CSS Rules</h2>
+			<header><h2>Organizing CSS Rules</h2></header>
 			<div class="content-block">
-				<h3>What does that rule do?</h3>
+				<header><h3>What does that rule do?</h3></header>
 				<p>When building your CSS, here are some tips to better organize
 					your rules</p>
 				<ul>
@@ -676,7 +677,7 @@
 		</article>
 		
 		<article id="homework">
-			<h2>Homework</h2>
+			<header><h2>Homework</h2></header>
 			<div class="content-block">
 				<p>Take the page you created for Finnegan and apply two
 					stylesheets:</p>
@@ -691,9 +692,13 @@
 		</article>
 	</section>
 	
-	<div id="footer">
+	<section>
+	<footer>
+		<div id="footer">
 				<a href="#top">Top of Page</a> | <a href="/">Home</a>
-	</div>
+		</div>
+	</footer>
+	</section>
 </body>
 </html>
 
