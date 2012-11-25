@@ -114,9 +114,7 @@
 					<li>Each stylesheet requires it's own <code>link</code> tag</li>
 					<li>The "media" attribute allows you to specify what medium this should be viewed in</li>
 				</ul>
-				<p></p>
 
-				<p></p>
 				<h3>Media variations</h3>
 				<ul>
 					<li><code>media="type"</code> can be a powerful tool</li>
