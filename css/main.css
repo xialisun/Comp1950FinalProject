@@ -159,7 +159,7 @@ nav a:active {
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3979af', endColorstr='#c7dbec',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
 }
 
-#wireframeimage img{
+.wireframeimage img{
 	max-width:940px;
 }
 
