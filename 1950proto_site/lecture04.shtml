@@ -39,11 +39,6 @@
 	<!-- using SSI for top Navigation -->
 	<!--#include file="inc/nav.inc"-->
 
-	<section id="content-title">
-		<!--lecture by week & agenda info goes here -->
-		<p>COMP 1950 >> Lecture 4</p>
-	</section>
-
 	<!-- Agenda Info -->
 	<!-- 
 	 * Review HTML5 Assignment
@@ -56,9 +51,11 @@
 	 -->
 	<section id="content">
 	    <header>
-            <h1>Agenda</h1>
+            <h1>COMP 1950 > Lecture 4 CSS Concepts</h1>
         </header>
 
+		<!-- disable the agenda part -->
+        <!-- 
         <div class="content-block">
             <p>the agenda for lecture 4 is the following:</p>
             <ul>
@@ -71,6 +68,8 @@
                 <li><a href="#homework">Homework</a></li>
             </ul>
         </div>
+         -->
+        <!-- end of  disable the agenda part -->
 
 		<article id="review-html5-assignment">
 			<h2>HTML5 Assignment</h2>

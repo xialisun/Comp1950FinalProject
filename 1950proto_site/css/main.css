@@ -338,6 +338,10 @@ article h2 {
     box-shadow: 1px 1px 3px #666;
 }
 
+code {
+	color: #06A;
+}
+
 #bottom-nav {
     background: #255a9e; /* Old browsers */
 	background: -moz-linear-gradient(top, #255a9e 0%, #02377b 100%); /* FF3.6+ */
@@ -369,15 +373,6 @@ article h2 {
 
 #bottom-nav a:hover {
     text-decoration: underline;
-}
-
-#validators {
-	text-align:center;
-}
-
-#validators img{
-	width:64px;
-	height:64px;
 }
 
 #validators {
