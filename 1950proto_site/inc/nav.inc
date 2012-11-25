@@ -25,7 +25,7 @@
 		<li class="inactive">02 | tools &amp; standards</li>
 		<li class="inactive">03 | HTML 5 &amp; SEO</li>
 		<li class="menu-item">
-			<a href="Lecture04.shtml">
+			<a href="lecture04.shtml">
 				<span class="menu-item-title">04 CSS Concepts</span><br/>
                 <span class="menu-item-desc">Selectors, Specificity, Measurements</span>
 			</a>
