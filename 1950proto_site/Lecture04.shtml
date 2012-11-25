@@ -41,7 +41,24 @@
 	 * Measurements
 	 * Homework
 	 -->
-	<section id="main-content">
+	<section id="content">
+	    <header>
+            <h1>Agenda</h1>
+        </header>
+
+        <div class="content-block">
+            <p>the agenda for lecture 4 is the following:</p>
+            <ul>
+                <li><a href="#review-html5-assignment">Review HTML5 Assignment</a></li>
+                <li><a href="#markup-quiz">Markup Quiz</a></li>
+                <li><a href="#css-concepts">CSS Concepts</a></li>
+                <li><a href="#exercises">Exercises</a></li>
+                <li><a href="#specificity">Specificity</a></li>
+                <li><a href="#measurements">Measurements</a></li>
+                <li><a href="#homework">Homework</a></li>
+            </ul>
+        </div>
+	
 
 		<article id="review-html5-assignment">
 			<h2>HTML5 Assignment</h2>
@@ -57,7 +74,7 @@
 		</article>
 
 		<article id="markup-quiz">
-		
+			<h2>Quiz Markup</h2>
 		</article>
 
 		<article id="css-concepts">

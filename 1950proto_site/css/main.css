@@ -297,6 +297,15 @@ article h2 {
     border-bottom-right-radius: 5px;
 }
 
+#validators {
+	text-align:center;
+}
+
+#validators img{
+	width:64px;
+	height:64px;
+}
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
