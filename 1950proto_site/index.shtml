@@ -4,19 +4,6 @@
     <meta charset="UTF-8">
     <title>Comp 1950 Home/Outline</title>
     <!--javascript include-->
-    <script src="http://code.jquery.com/jquery-1.8.2.min.js" type="text/javascript"></script>   
-    <script>
-        $(document).ready(function() {
-            $("#accordion > li").click(function(){
-                if(false == $(this).next().is(':visible')) {
-                    $('#accordion > ul').slideUp(300);
-                }
-                $(this).next().slideToggle(300);
-            }); 
-        });    
-    
-    </script>
-
     <!--stylesheet include-->
     
     <!-- Google Web Fonts - Open Sans Condensed -->
@@ -27,6 +14,18 @@
     
     <link rel="Stylesheet" type="text/css" href="css/normalize.css" media="screen" />
     <link rel="stylesheet" type="text/css" href="css/main.css" media="screen"/>
+    
+    <script src="http://code.jquery.com/jquery-1.8.2.min.js" type="text/javascript"></script>   
+    <script>
+        $(document).ready(function() {
+            $("#accordion > li").click(function(){
+                if(false == $(this).next().is(':visible')) {
+                    $('#accordion > ul').slideUp(300);
+                }
+                $(this).next().slideToggle(300);
+            }); 
+        });    
+    </script> 
 </head>
 <body id="wrapper">
 
@@ -40,26 +39,25 @@
         <header>
             <h1>welcome!</h1>
         </header>
-		
-		<article>
+
         <div class="content-block">
             <p>the agenda for week 1 is the following:</p>
             <ul>
                 <li><a href="#about">about this course (outline, assignments, quizzes, administrivia etc)</a></li>
                 <li><a href="#intro-you-me">introductions (me, you</a></li>
-                <li><a href="#webspace_FTP">web space (thenet.ca) &amp; FTP</a></li>
+                <li><a href="#webspace-ftp">web space (thenet.ca) &amp; FTP</a></li>
                 <li><a href="#expectation">some expectations &amp; reminders</a></li>
                 <li><a href="#assignment">today's assignment</a></li>
             </ul>
         </div>
-		</article>
 
         <article id="about">
-            <header><h2>About this course</h2></header>
+            <h2>About this course</h2>
             <div class="content-block">
                 <p>
                     <strong>Official</strong> details about the who, what, where and how are located in the <a href="http://www.bcit.ca/study/courses/comp1950">course info</a> section
                 </p>
+
                 <p>
                     Some more information you might like to know:
                 </p>
@@ -79,6 +77,8 @@
                     <li>
                         Class and homework exercises
                     </li>
+
+                    <li>
                         <ul>
                             <li>
                                 Assignments (various): 20%
@@ -93,9 +93,10 @@
                                 Final Exam: 30%
                             </li>
                         </ul>
+                    </li>
                 </ul>
 
-                 <header><h3>Assignments</h3></header>
+                <h3>Assignments</h3>
                 <ul>
                     <li>
                         Generally given during the lab portion, due the following week
@@ -105,11 +106,11 @@
                     </li>
                 </ul>
 
-                 <header><h3>Quizzes &amp; final exam</h3></header>
-                <p>
-				All quizzes will feature <em>at least</em> one, and <em>possibly</em> all of the following question types:
-                </p>
-				<ul>
+                <h3>Quizzes &amp; final exam</h3>
+
+                All quizzes will feature <em>at least</em> one, and <em>possibly</em> all of the following question types:
+                <ul>
+
                     <li>
                         fill-in-the-blanks
                     </li>
@@ -128,12 +129,14 @@
                 </ul>
             </div>
 
-             <header><h2>Outline</h2></header>
+            <h2>Outline</h2>
             <div class="content-block">
                 <p>
                     Here is the current Course Outline (by week):
                 </p>
+
                 <dl class="outline">
+
                     <dt>
                         Week 1
                     </dt>
@@ -152,6 +155,7 @@
                     <dd class="outline-last">
                         <strong>Assignment 1:</strong> Course homepage
                     </dd>
+
                     <dt>
                         Week 2
                     </dt>
@@ -164,6 +168,7 @@
                     <dd class="outline-last">
                         <strong>Assignment 2: </strong>Using tools &amp; standards
                     </dd>
+
                     <dt>
                         Week 3
                     </dt>
@@ -179,6 +184,7 @@
                     <dd class="outline-last">
                         <strong>Assignment 3:</strong> Working with different MLs
                     </dd>
+
                     <dt>
                         Week 4
                     </dt>
@@ -194,6 +200,7 @@
                     <dd class="outline-last">
                         <strong>Assignment 4:</strong> Using different stylesheets
                     </dd>
+
                     <dt>
                         Week 5
                     </dt>
@@ -206,6 +213,7 @@
                     <dd class="outline-last">
                         <strong>Assignment 5:</strong> Troubleshooting CSS, Positioning Exercises
                     </dd>
+
                     <dt>
                         Week 6
                     </dt>
@@ -221,6 +229,7 @@
                     <dd class="outline-last">
                         <strong>Assignment 6:</strong> Template
                     </dd>
+
                     <dt>
                         Week 7
                     </dt>
@@ -236,6 +245,7 @@
                     <dd class="outline-last">
                         <strong>Assignment 7:</strong> Template II
                     </dd>
+
                     <dt>
                         Week 8
                     </dt>
@@ -251,6 +261,7 @@
                     <dd class="outline-last">
                         <strong>Assignment 8:</strong> Methodology Notes
                     </dd>
+
                     <dt>
                         Week 9
                     </dt>
@@ -266,6 +277,7 @@
                     <dd class="outline-last">
                         <strong>Assignment 9:</strong> Javascript exercises
                     </dd>
+
                     <dt>
                         Week 10
                     </dt>
@@ -281,12 +293,14 @@
                     <dd class="outline-last">
                         <strong>Assignment 10</strong>: Completed site
                     </dd>
+
                     <dt>
                         Week 11
                     </dt>
                     <dd class="outline-last">
                         Project Work
                     </dd>
+
                     <dt>
                         Week 12
                     </dt>
@@ -298,20 +312,17 @@
         </article>
 
         <article id="intro-you-me">
-            <header><h2>introductions</h2></header>
+            <h2>introductions</h2>
             <div class="content-block">
                 <p>
                     <strong>All About Alistair Calder</strong>
-				</p>
                     <ul>
                         <li>
                             Web Developer since 1995
                         </li>
                         <li>
-							<p>
                             Lead web developer for:
-                            </p>
-							<ul>
+                            <ul>
                                 <li>
                                     Top Producer Systems
                                 </li>
@@ -323,6 +334,7 @@
                                 </li>
                             </ul>
                         </li>
+
                         <li>
                             <strong>Currently:</strong> Technical lead on student portal, myBCIT
                         </li>
@@ -332,7 +344,7 @@
                     </ul>
             </div>
 
-            <header><h2>trivia</h2></header>
+            <h2>trivia</h2>
             <div class="content-block">
                 <ul>
                     <li>
@@ -360,6 +372,7 @@
                                 Muffin Tin Greaser
                             </li>
                         </ul>
+
                     </li>
                     <li>
                         Locked myself on the roof of the Rogers Cantel building up at Metrotown by accident.  Had to call a friend to come up and let me back in the building.
@@ -370,12 +383,11 @@
                 </ul>
             </div>
 
-            <header><h2>Introductions: Who Are You?</h2></header>
+            <h2>Introductions: Who Are You?</h2>
             <div class="content-block">
-                <p>
-				Pair up with your neighbour and find out from them:
-                </p>
-				<ul>
+                Pair up with your neighbour and find out from them:
+                <ul>
+
                     <li>
                         Name
                     </li>
@@ -394,22 +406,23 @@
                     <li>
                         Little-known trivia
                     </li>
+
                 </ul>
-				<p>
                 After 5 minutes, you will introduce your classmate.
-				</p>
             </div>
         </article>
 
-        <article id="webspace_FTP">
-            <header><h2>web space</h2></header>
+        <article id="webspace-ftp">
+            <h2>web space</h2>
             <div class="content-block">
                 <p>
                     Each student will get personal webspace.  This may be different than in the past, as this space is exclusively yours, with your own username and password.
                 </p>
+
                 <p>
                     This is also not a continuation of your COMP1850 site (if you had one).  This site is primarily for you to house your exercises, assignments, group work and more.  Make it a site that is usable and functional.
                 </p>
+
                 <p>
                     <strong>TheNet Setup</strong>
                 </p>
@@ -423,6 +436,7 @@
                             <li>
                                 directory name
                             </li>
+
                             <li>
                                 username
                             </li>
@@ -446,14 +460,17 @@
                 </ul>
             </div>
 
-            <header><h2>FTP into your Account</h2></header>
+            <h2>FTP into your Account</h2>
             <div class="content-block">
+
                 <p>
                     You can use any FTP program you are comfortable with. There is most likely one installed in the labs (it changes from term to term) but you can download and install any one you want.
                 </p>
+
                 <p>
                     If you aren't knowledgeable with any FTP programs yet, just let me know!
                 </p>
+
                 <p>
                     Here is the relevant information you will need to know:
                 </p>
@@ -472,7 +489,7 @@
         </article>
 
         <article id="expectation">
-            <header><h2>Expectations &amp; reminders</h2></header>
+            <h2>Expectations &amp; reminders</h2>
             <div class="content-block">
                 <p>
                     This course is about Web Development.  This means you should conduct yourself as Web Developers!
@@ -525,16 +542,17 @@
                         Assignment is due at noon the day before class
                     </dd>
                 </dl>
+
             </div>
         </article>
 
         <article id="assignment">
-            <header><h2>assignment</h2></header>
+            <h2>assignment</h2>
             <div class="content-block">
+
                 <p>
                     Create your course web site:
-                </p>
-				<ul>
+                    <ul>
                         <li>
                             Check out the example page created by a past student: <a href="http://past.thenet.ca/lori/">Lori's Example</a>
                         </li>
@@ -574,33 +592,34 @@
                         <li>
                             There needs to be a link from the <strong>myBCIT Members</strong> page to your Student Homepage
                         </li>
+                    </ul>
+            </div>
+        </article>
+        
+        <article id="other">
+            <h2>Other subjects?  Tailor the course!</h2>
+            <div class="content-block">
+                <ul>
+                    <li>
+                        What would you <strong>like</strong> to learn about?
+                    </li>
+                    <li>
+                        What are you most interested in learning?
+                    </li>
+                    <li>
+                        What skills would you like to acquire?
+                    </li>
+                    <li>
+                        Are there subjects not covered here?
+                    </li>
                 </ul>
             </div>
         </article>
 
-        <header><h2>Other subjects?  Tailor the course!</h2></header>
-        <div class="content-block">
-            <ul>
-                <li>
-                    What would you <strong>like</strong> to learn about?
-                </li>
-                <li>
-                    What are you most interested in learning?
-                </li>
-                <li>
-                    What skills would you like to acquire?
-                </li>
-                <li>
-                    Are there subjects not covered here?
-                </li>
-            </ul>
-        </div>
-	</section>
-	
-	<section>	
-        <footer id="bottonnav">
+        <footer id="bottom-nav">
             <a href="#top">Top of Page</a> | <a href="/">Home</a>
         </footer>
     </section>
+
 </body>
 </html>
