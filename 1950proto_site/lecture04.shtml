@@ -3,7 +3,7 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <title>Comp 1950, Lecture 4</title>
+    <title>Comp 1950 CSS Concepts</title>
     <meta name="author" content="Comp 1950 Group 1">
     <meta name="description"
 	content="A prototype site for a rework of the existing BCIT Comp1950 student site">
@@ -12,14 +12,26 @@
     <script src="http://code.jquery.com/jquery-1.8.2.min.js" type="text/javascript"></script>   
     <script>
         $(document).ready(function() {
+            
+            /* !! EDIT THIS FOR EACH LECTURE PAGE */
+           $("#lecture04").addClass("current");
+            
+            /*close all the open submenus except the current one*/
+           $("#accordion > li").each(function(i){
+                if($(this).next().hasClass("submenu") && !($(this).hasClass("current"))){ /*only accordion if there is a submenu */             
+                    $($(this).next()).slideUp();
+                }               
+           });
+           
+           /*deal with menu clicks  don't close the current page*/ 
             $("#accordion > li").click(function(){
-                if(false == $(this).next().is(':visible')) {
-                    $('#accordion > ul').slideUp(300);
+                if($(this).next().hasClass("submenu")&& !($(this).hasClass("current"))){ 
+                    $(this).next().slideToggle(300);
                 }
-                $(this).next().slideToggle(300);
             }); 
+            
         });    
-    </script>   
+    </script>  
     
     <!--stylesheet include-->
     
