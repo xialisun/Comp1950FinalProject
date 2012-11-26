@@ -49,6 +49,8 @@
     <!--#include file="inc/nav.inc"-->
 
     <section id="content">
+        
+        <!-- removing agenda to match the wireframe
         <header>
             <h1>welcome!</h1>
         </header>
@@ -63,7 +65,7 @@
                 <li><a href="#assignment">today's assignment</a></li>
             </ul>
         </div>
-
+        -->
         <article id="about">
             <h2>About this course</h2>
             <div class="content-block">
