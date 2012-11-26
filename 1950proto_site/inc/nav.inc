@@ -5,7 +5,7 @@
             <a href="http://comp1950team1.tumblr.com/">
 				<span class="menu-item-title">Blog</span><br/>
 			</a>
-        </a>
+        
     </ul>
     <h2>Lectures</h2>
 	<ul id="accordion" class="menu">
