@@ -11,6 +11,10 @@
     <!--javascript include-->
     <script src="http://code.jquery.com/jquery-1.8.2.min.js" type="text/javascript"></script>   
     <script>
+        /* These functions should be included in a file so it wouldn't need to be
+         * copied to each lecture file. None of us have taken Jason's javascript 
+         * course yet, so it might not happen. -- Team1
+         */
         $(document).ready(function() {
             
             /* !! EDIT THIS FOR EACH LECTURE PAGE */
@@ -23,15 +27,30 @@
                 }               
            });
            
-           /*deal with menu clicks  don't close the current page*/ 
-            $("#accordion > li").click(function(){
+           /*deal with menu when mouse is over menu  but don't close the current page*/ 
+            $("#accordion > li").hover(
+                function(){
                 if($(this).next().hasClass("submenu")&& !($(this).hasClass("current"))){ 
-                    $(this).next().slideToggle(300);
+                    $(this).next().slideDown(300);
                 }
+            },
+            function(){ /*don't do anything when mouse leaves this item */
             }); 
-            
+
+            $("#accordion").hover(
+                function(){ /* don't do anything when mouse enters menu area*/
+            },
+            function(){
+            /*close all the open submenus except the current one*/
+               $("#accordion > li").each(function(i){
+                    if($(this).next().hasClass("submenu") && !($(this).hasClass("current"))){ /*only accordion if there is a submenu */             
+                        $($(this).next()).slideUp();
+                    }               
+               });
+            }); 
+                        
         });    
-    </script>  
+    </script> 
     
     <!--stylesheet include-->
     
