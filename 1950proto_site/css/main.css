@@ -242,6 +242,10 @@ body {
     color: grey;
 }
 
+#right-nav .current {
+    background-color: #bbb;
+}
+
 .menu-item-title {
 	font-weight: bold;
 }
