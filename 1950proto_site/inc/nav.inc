@@ -10,7 +10,7 @@
     <h2>Lectures</h2>
 	<ul id="accordion" class="menu">
 		<li class="menu-item" id="lecture01">
-			<a href="index.shtml">
+			<a href="#">
 				<span class="menu-item-title">01 Home & Introduction</span><br/>
                 <span class="menu-item-desc">Introductions, First Assignment</span>
 			</a>
@@ -25,7 +25,7 @@
 		<li class="inactive">02 | tools &amp; standards</li>
 		<li class="inactive">03 | HTML 5 &amp; SEO</li>
 		<li class="menu-item" id="lecture04">
-			<a href="lecture04.shtml">
+			<a href="#">
 				<span class="menu-item-title">04 CSS Concepts</span><br/>
                 <span class="menu-item-desc">Selectors, Specificity, Measurements</span>
 			</a>
@@ -37,6 +37,7 @@
 			<li class="subitem"><a href="lecture04.shtml#exercises">Exercises</a></li>
 			<li class="subitem"><a href="lecture04.shtml#specificity">Specificity</a></li>
 			<li class="subitem"><a href="lecture04.shtml#measurements">Measurements</a></li>
+            <li class="subitem"><a href="lecture04.shtml#homework">Homework</a></li>			
 		</ul>
 		<li class="inactive">05 | more css</li>
 		<li class="inactive">06 | CSS and SSIs</li>
