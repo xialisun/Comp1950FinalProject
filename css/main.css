@@ -165,9 +165,11 @@ nav a:active {
 
 #content.sitemap {
     /* Extra padding for sitemap to avoid overlaps with the navigation menu */
-    padding: 50px 0;
+    padding: 50px 0 0 20px;
     border: none;
+    background: #B3D4FC; /*if you change this color, change it in slickmap.css (#primaryNav #home ) too */
 }
+
 
 figure img	{margin:auto;
 		}
