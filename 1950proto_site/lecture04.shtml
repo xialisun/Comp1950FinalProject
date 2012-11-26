@@ -22,33 +22,23 @@
             
             /*close all the open submenus except the current one*/
            $("#accordion > li").each(function(i){
-                if($(this).next().hasClass("submenu") && !($(this).hasClass("current"))){ /*only accordion if there is a submenu */             
-                    $($(this).next()).slideUp();
+                if($(this).children().hasClass("submenu") && !($(this).hasClass("current"))){ /*only accordion if there is a submenu */             
+                    $($(this).children(".submenu")).hide();
                 }               
            });
            
-           /*deal with menu when mouse is over menu  but don't close the current page*/ 
+           /*deal with menu when mouse is over menu but don't close the current page*/ 
             $("#accordion > li").hover(
                 function(){
-                if($(this).next().hasClass("submenu")&& !($(this).hasClass("current"))){ 
-                    $(this).next().slideDown(300);
+                if($(this).children().hasClass("submenu")&& !($(this).hasClass("current"))){ 
+                    $(this).children(".submenu").slideDown(250);
                 }
             },
-            function(){ /*don't do anything when mouse leaves this item */
-            }); 
-
-            $("#accordion").hover(
-                function(){ /* don't do anything when mouse enters menu area*/
-            },
             function(){
-            /*close all the open submenus except the current one*/
-               $("#accordion > li").each(function(i){
-                    if($(this).next().hasClass("submenu") && !($(this).hasClass("current"))){ /*only accordion if there is a submenu */             
-                        $($(this).next()).slideUp();
-                    }               
-               });
-            }); 
-                        
+                if($(this).children().hasClass("submenu")&& !($(this).hasClass("current"))){ 
+                    $(this).children(".submenu").slideUp(250);
+                }
+            });                         
         });    
     </script> 
     
