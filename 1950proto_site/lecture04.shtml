@@ -6,7 +6,7 @@
     <title>Comp 1950 CSS Concepts</title>
     <meta name="author" content="Comp 1950 Group 1">
     <meta name="description"
-	content="A prototype site for a rework of the existing BCIT Comp1950 student site">
+	content="A prototype site for a rework of the existing BCIT Comp1950 student site. Initial CSS concepts.">
     
     <!--javascript include-->
     <script src="http://code.jquery.com/jquery-1.8.2.min.js" type="text/javascript"></script>   
