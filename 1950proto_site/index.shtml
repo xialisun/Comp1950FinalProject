@@ -30,12 +30,12 @@
             $("#accordion > li").hover(
                 function(){
                 if($(this).children().hasClass("submenu")&& !($(this).hasClass("current"))){ 
-                    $(this).children(".submenu").slideDown(250);
+                    $(this).children(".submenu").stop().slideDown(250);
                 }
             },
             function(){
                 if($(this).children().hasClass("submenu")&& !($(this).hasClass("current"))){ 
-                    $(this).children(".submenu").slideUp(250);
+                    $(this).children(".submenu").stop().slideUp(250);
                 }
             });                         
         });    
