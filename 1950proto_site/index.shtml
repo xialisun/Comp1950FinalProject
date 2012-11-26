@@ -49,6 +49,9 @@
     <!--#include file="inc/nav.inc"-->
 
     <section id="content">
+        <header>
+            <h1>COMP 1950 > Course Home and Lecture 1 Introduction</h1>
+        </header>
         
         <!-- removing agenda to match the wireframe
         <header>
