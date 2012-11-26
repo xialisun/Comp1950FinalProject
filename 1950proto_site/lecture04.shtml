@@ -23,7 +23,7 @@
             /*close all the open submenus except the current one*/
            $("#accordion > li").each(function(i){
                 if($(this).children().hasClass("submenu") && !($(this).hasClass("current"))){ /*only accordion if there is a submenu */             
-                    $($(this).children(".submenu")).hide();
+                    $($(this).children(".submenu")).slideUp();
                 }               
            });
            
