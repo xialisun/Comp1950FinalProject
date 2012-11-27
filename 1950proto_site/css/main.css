@@ -347,6 +347,29 @@ article h2 {
     box-shadow: 1px 1px 3px #666;
 }
 
+.content-block a:link,
+.content-block a:visited {
+    color: #E60;
+    text-decoration: none;
+}
+
+.content-block a:hover {
+    text-decoration: underline;
+}
+
+.return-to-top-link {
+    border-top: 1px solid #aaa;
+    padding-top: 10px;
+    overflow: hidden;
+}
+
+.return-to-top-link a {
+    display: block;
+    float: right;
+    background: url("../image/return-to-top-icon.png") no-repeat;
+    padding-left: 25px;
+}
+
 code {
 	color: #06A;
 }

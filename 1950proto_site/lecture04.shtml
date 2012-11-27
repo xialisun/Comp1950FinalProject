@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html>
 <head>
@@ -18,16 +17,16 @@
         $(document).ready(function() {
             
             /* !! EDIT THIS FOR EACH LECTURE PAGE */
-           $("#lecture04").addClass("current");
+            $("#lecture04").addClass("current");
             
             /*close all the open submenus except the current one*/
-           $("#accordion > li").each(function(i){
+            $("#accordion > li").each(function(i){
                 if($(this).children().hasClass("submenu") && !($(this).hasClass("current"))){ /*only accordion if there is a submenu */             
                     $(this).children(".submenu").slideUp();
                 }               
-           });
+            });
            
-           /*deal with menu when mouse is over menu but don't close the current page*/ 
+            /*deal with menu when mouse is over menu but don't close the current page*/ 
             $("#accordion > li").hover(
                 function(){
                 if($(this).children().hasClass("submenu")&& !($(this).hasClass("current"))){ 
@@ -103,6 +102,10 @@
 				<p>
 					One excellent tool we can take a look at while doing that is this <a href="http://html5doctor.com/downloads/h5d-sectioning-flowchart.pdf">HTML5 element flowchart</a> created by the authors of HTML5 Doctor.
 				</p>
+                
+                <div class="return-to-top-link">
+                    <a href="#top">Top of Page</a>
+                </div>
 			</div>
 		</article>
 
@@ -247,10 +250,14 @@
 						let you play with your styles</li>
 					<li>See "live edits" as you make changes to the CSS</li>
 				</ul>
+                
+                <div class="return-to-top-link">
+                    <a href="#top">Top of Page</a>
+                </div>
 			</div>
+        </article>    
 
-
-
+        <article>
 			<h2>CSS Selectors</h2>
 			<div class="content-block">
 				<p>Other than Element, Class, and ID selectors, there are many
@@ -368,7 +375,14 @@
 							{ color: olive; }</code>
 					</li>
 				</ul>
+                
+                <div class="return-to-top-link">
+                    <a href="#top">Top of Page</a>
+                </div>
 			</div>
+        </article>    
+
+        <article>
 			<h2>Simplifying your CSS</h2>
 			<div class="content-block">
 				<p>When building your CSS rules, there are some easy ways to
@@ -393,6 +407,10 @@
 					<li>Case is important! Remember to use a single rule for CSS
 						naming and stick with it</li>
 				</ul>
+                
+                <div class="return-to-top-link">
+                    <a href="#top">Top of Page</a>
+                </div>
 			</div>
 		</article>
 		
@@ -415,10 +433,14 @@
 					<li><a href="exercise/exercise2.html">Exercise 2</a></li>
 				</ul>
 				<p>Try to make your page look exactly like the example pages</p>
-
+                
+                <div class="return-to-top-link">
+                    <a href="#top">Top of Page</a>
+                </div>
 			</div>
-
-
+        </article>
+        
+        <article>
 			<h2>Exercise</h2>
 			<div class="content-block">
 				<h3>More Attribute Selectors - Identify File Types</h3>
@@ -435,8 +457,11 @@
 					<li>Using attribute selectors (and a <code>background</code>
 						property), try and get the icons to line up with each file type
 					</li>
-
 				</ul>
+                
+                <div class="return-to-top-link">
+                    <a href="#top">Top of Page</a>
+                </div>
 			</div>
 		</article>
 		
@@ -579,7 +604,10 @@
 					<li><strong>Bad fonts</strong>: Comic Sans and Impact. Resist
 						the urge!</li>
 				</ul>
-
+                
+                <div class="return-to-top-link">
+                    <a href="#top">Top of Page</a>
+                </div>
 			</div>
 		</article>
 
@@ -655,8 +683,14 @@
 						Almost identical to RGB, but with percentages of each color space
 						instead</li>
 				</ul>
+                
+                <div class="return-to-top-link">
+                    <a href="#top">Top of Page</a>
+                </div>
 			</div>
+        </article>
 
+		<article>
 			<h2>CSS Resources</h2>
 			<div class="content-block">
 				<ul>
@@ -691,6 +725,10 @@
 						add <strong>!important</strong> to the end. Use this <strong>sparingly</strong>!</li>
 					<li>Comment your code!</li>
 				</ul>
+                
+                <div class="return-to-top-link">
+                    <a href="#top">Top of Page</a>
+                </div>
 			</div>
 		</article>
 		
@@ -706,6 +744,10 @@
 						the page significantly. Keep all of the elements, don't change any
 						HTML, just change the CSS.</li>
 				</ol>
+                
+                <div class="return-to-top-link">
+                    <a href="#top">Top of Page</a>
+                </div>
 			</div>
 		</article>
         

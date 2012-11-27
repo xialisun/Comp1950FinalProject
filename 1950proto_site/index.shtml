@@ -17,16 +17,16 @@
         $(document).ready(function() {
             
             /* !! EDIT THIS FOR EACH LECTURE PAGE */
-           $("#lecture01").addClass("current");
+            $("#lecture01").addClass("current");
             
             /*close all the open submenus except the current one*/
-           $("#accordion > li").each(function(i){
+            $("#accordion > li").each(function(i){
                 if($(this).children().hasClass("submenu") && !($(this).hasClass("current"))){ /*only accordion if there is a submenu */             
                     $(this).children(".submenu").slideUp();
                 }               
-           });
+            });
            
-           /*deal with menu when mouse is over menu but don't close the current page*/ 
+            /*deal with menu when mouse is over menu but don't close the current page*/ 
             $("#accordion > li").hover(
                 function(){
                 if($(this).children().hasClass("submenu")&& !($(this).hasClass("current"))){ 
@@ -159,8 +159,14 @@
                         code writing
                     </li>
                 </ul>
+                
+                <div class="return-to-top-link">
+                    <a href="#top">Top of Page</a>
+                </div>
             </div>
+        </article>
 
+        <article>
             <h2>Outline</h2>
             <div class="content-block">
                 <p>
@@ -340,6 +346,10 @@
                         Final Examination
                     </dd>
                 </dl>
+                
+                <div class="return-to-top-link">
+                    <a href="#top">Top of Page</a>
+                </div>
             </div>
         </article>
 
@@ -348,34 +358,41 @@
             <div class="content-block">
                 <p>
                     <strong>All About Alistair Calder</strong>
-                    <ul>
-                        <li>
-                            Web Developer since 1995
-                        </li>
-                        <li>
-                            Lead web developer for:
-                            <ul>
-                                <li>
-                                    Top Producer Systems
-                                </li>
-                                <li>
-                                    Multiactive
-                                </li>
-                                <li>
-                                    One Atmosphere (my own design firm)
-                                </li>
-                            </ul>
-                        </li>
+                </p>
+                <ul>
+                    <li>
+                        Web Developer since 1995
+                    </li>
+                    <li>
+                        Lead web developer for:
+                        <ul>
+                            <li>
+                                Top Producer Systems
+                            </li>
+                            <li>
+                                Multiactive
+                            </li>
+                            <li>
+                                One Atmosphere (my own design firm)
+                            </li>
+                        </ul>
+                    </li>
 
-                        <li>
-                            <strong>Currently:</strong> Technical lead on student portal, myBCIT
-                        </li>
-                        <li>
-                            Broad knowledge set focussed mainly on web technologies
-                        </li>
-                    </ul>
+                    <li>
+                        <strong>Currently:</strong> Technical lead on student portal, myBCIT
+                    </li>
+                    <li>
+                        Broad knowledge set focussed mainly on web technologies
+                    </li>
+                </ul>
+                
+                <div class="return-to-top-link">
+                    <a href="#top">Top of Page</a>
+                </div>
             </div>
-
+        </article>
+        
+        <article>
             <h2>trivia</h2>
             <div class="content-block">
                 <ul>
@@ -413,8 +430,14 @@
                         Live with a Nova Scotia Duck Tolling Retriever: <a href="http://www.alistair.com/collection/finnegan/2005_07/">Finnegan</a>
                     </li>
                 </ul>
+                
+                <div class="return-to-top-link">
+                    <a href="#top">Top of Page</a>
+                </div>
             </div>
-
+        </article>
+        
+        <article>
             <h2>Introductions: Who Are You?</h2>
             <div class="content-block">
                 <p>
@@ -445,6 +468,10 @@
                 <p>
                     After 5 minutes, you will introduce your classmate.
                 </p>
+                
+                <div class="return-to-top-link">
+                    <a href="#top">Top of Page</a>
+                </div>
             </div>
         </article>
 
@@ -494,8 +521,14 @@
                         Your URL will be: <strong>http://students.thenet.ca/{name}</strong>
                     </li>
                 </ul>
+                
+                <div class="return-to-top-link">
+                    <a href="#top">Top of Page</a>
+                </div>
             </div>
-
+        </article>
+        
+        <article>
             <h2>FTP into your Account</h2>
             <div class="content-block">
 
@@ -521,6 +554,10 @@
                         Password: <strong>{the password you entered}</strong>
                     </li>
                 </ul>
+                
+                <div class="return-to-top-link">
+                    <a href="#top">Top of Page</a>
+                </div>
             </div>
         </article>
 
@@ -578,7 +615,10 @@
                         Assignment is due at noon the day before class
                     </dd>
                 </dl>
-
+                
+                <div class="return-to-top-link">
+                    <a href="#top">Top of Page</a>
+                </div>
             </div>
         </article>
 
@@ -630,6 +670,10 @@
                         There needs to be a link from the <strong>myBCIT Members</strong> page to your Student Homepage
                     </li>
                 </ul>
+                
+                <div class="return-to-top-link">
+                    <a href="#top">Top of Page</a>
+                </div>
             </div>
         </article>
         
@@ -650,6 +694,10 @@
                         Are there subjects not covered here?
                     </li>
                 </ul>
+                
+                <div class="return-to-top-link">
+                    <a href="#top">Top of Page</a>
+                </div>
             </div>
         </article>
 
