@@ -14,7 +14,7 @@
 		<li id="lecture01" class="menu-item">
             <div class="menu-item-heading">
                 <a href="index.shtml">
-                    <span class="menu-item-title">01 Home & Introduction</span><br/>
+                    <span class="menu-item-title">01 Home &amp; Introduction</span><br />
                     <span class="menu-item-desc">Introductions, First Assignment</span>
                 </a>
             </div>
@@ -26,12 +26,18 @@
                 <li class="subitem"><a href="index.shtml#assignment">today's assignment</a></li>        
             </ul>
 		</li>
-		<li class="inactive">02 | tools &amp; standards</li>
-		<li class="inactive">03 | HTML 5 &amp; SEO</li>
+		<li class="inactive">
+            <span class="menu-item-title">02 Tools &amp; Standards</span><br />
+            <span class="menu-item-desc">Browser Tools, Semantics, XHTML</span>
+        </li>
+		<li class="inactive">
+            <span class="menu-item-title">03 HTML 5 &amp; SEO</span><br />
+            <span class="menu-item-desc">SEO Basics, History of MLs</span>
+        </li>
 		<li id="lecture04" class="menu-item">
             <div class="menu-item-heading">
                 <a href="lecture04.shtml">
-                    <span class="menu-item-title">04 CSS Concepts</span><br/>
+                    <span class="menu-item-title">04 CSS Concepts</span><br />
                     <span class="menu-item-desc">Selectors, Specificity, Measurements</span>
                 </a>
             </div>
@@ -46,11 +52,61 @@
             </ul>
 		</li>
 
-		<li class="inactive">05 | more css</li>
-		<li class="inactive">06 | CSS and SSIs</li>
-		<li class="inactive">07 | template development</li>
-		<li class="inactive">08 | more templating</li>
-		<li class="inactive">09 | methodology</li>    
-		<li class="inactive">10 | jQuery / Git</li>
+		<li class="inactive">
+            <span class="menu-item-title">05 More CSS</span><br />
+            <span class="menu-item-desc">Resets, Layouts, Media Queries</span>
+        </li>
+		<li class="inactive">
+            <span class="menu-item-title">06 CSS and SSIs</span><br />
+            <span class="menu-item-desc">CSS Review, SSI Introduction</span>
+        </li>
+		<li class="inactive">
+            <span class="menu-item-title">07 Template Development</span><br />
+            <span class="menu-item-desc">SSI Review, Tumblr Templates</span>
+        </li>
+		<li class="inactive"><span class="menu-item-title">08 More Templating</span></li>
+		<li class="inactive"><span class="menu-item-title">09 Methodology</span></li>    
+		<li class="inactive"><span class="menu-item-title">10 jQuery / Git</span></li>
 	</ul>
+    <h2>Contact</h2>
+    <ul>
+        <li class="menu-item">
+            <div class="menu-item-heading">
+                <a href="mailto:acalder1@my.bcit.ca">
+                    <span class="menu-item-title">Alistair Calder</span><br/>
+                </a>
+            </div>
+        </li>
+    </ul>
+    <h2>Associated Links</h2>
+    <ul>
+        <li class="menu-item">
+            <div class="menu-item-heading">
+                <a href="http://my.bcit.ca/">
+                    <span class="menu-item-title">myBCIT</span><br/>
+                </a>
+            </div>
+        </li>
+        <li class="menu-item">
+            <div class="menu-item-heading">
+                <a href="http://www.bcit.ca/">
+                    <span class="menu-item-title">BCIT</span><br/>
+                </a>
+            </div>
+        </li>
+        <li class="menu-item">
+            <div class="menu-item-heading">
+                <a href="http://www.computing.bcit.ca/">
+                    <span class="menu-item-title">BCIT Computing</span><br/>
+                </a>
+            </div>
+        </li>
+        <li class="menu-item">
+            <div class="menu-item-heading">
+                <a href="http://www.alistair.com/">
+                    <span class="menu-item-title">alistair.com</span><br/>
+                </a>
+            </div>
+        </li>
+    </ul>
 </nav>
