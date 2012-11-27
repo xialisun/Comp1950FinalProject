@@ -132,8 +132,8 @@ ol, ul {
 #primaryNav li:last-child {
 	background: url('../../image/L1-right.png') center top no-repeat;
 }
-a:link:before,
-a:visited:before {
+#primaryNav a:link:before,
+#primaryNav a:visited:before {
 	content: " "attr(href)" ";
 	display: block;
 	text-transform: uppercase;
