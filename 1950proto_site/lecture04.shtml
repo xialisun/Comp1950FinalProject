@@ -120,8 +120,14 @@
 				<p>Over the last few weeks, I re-introduced basic CSS concepts like HTML, ID, and Class Elements, as well as where to place your content: Inline, Embedded and External</p>
 
 				<p>Today, we'll take that further and talk about different ways to reference your CSS, various kinds of selectors, and working withthe most commonly used element on every web page: the link</p>
-			</div>
-					<h2>Referencing CSS</h2>
+                
+                <div class="return-to-top-link">
+                    <a href="#top">Top of Page</a>
+                </div>
+            </div>
+        </article>
+        <article>
+            <h2>Referencing CSS</h2>
 			<div class="content-block">
 				<h3>Linking your CSS</h3>
 				<p>When linking to external style sheets, there are a number of things to know about linking to those external files. A standard LINK element:</p>
