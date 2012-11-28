@@ -303,9 +303,9 @@ body {
 #content header h1 {
     color: white;
     font-family: "Open Sans Condensed", Arial, Helvetica, sans-serif;
+    font-size: 1.3em;
     margin: 0;
     padding: 0;
-    font-size: 1.5em;
 }
 
 article h2 {
@@ -320,6 +320,7 @@ article h2 {
     
     color: white;
     font-family: "Open Sans Condensed", Arial, Helvetica, sans-serif;
+    font-size: 1.3em;
     padding: 0 10px;
     margin: 20px 0 0;
     
@@ -334,11 +335,21 @@ article h2 {
     background-color: #ddd;
     font-family: "Open Sans", Arial, Helvetica, sans-serif;
     font-size: 0.9em;
-    padding: 10px 20px;
+    padding: 15px 20px 5px;
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
     
     box-shadow: 1px 1px 3px #666;
+}
+
+.content-block h3 {
+    margin: 10px 0;
+}
+
+.content-block h3:first-child ,
+.content-block ul:first-child,
+.content-block p:first-child {
+    margin-top: 0;
 }
 
 .content-block dl dt{
@@ -357,7 +368,7 @@ article h2 {
 
 .return-to-top-link {
     border-top: 1px solid #aaa;
-    padding-top: 10px;
+    padding-top: 5px;
     overflow: hidden;
 }
 
