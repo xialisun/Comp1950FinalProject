@@ -12,7 +12,7 @@
             <input type="hidden" name="n" value="0">
             <input type="hidden" name="_charset_" value="">
             <input type="hidden" name="bcd" value="&#247;">
-            <input type="text" name="query" size="31" maxlength="255" value="" >
+            <input type="text" name="query" size="20" maxlength="255" value="" >
             <input type="submit" id="search-button" value="Search">
         </form>		
 	</div> 

@@ -145,7 +145,7 @@ body {
 }
 
 #search-button {
-    margin-left: 20px;
+    margin-left: 10px;
     margin-right: 40px;
 }
 
@@ -365,6 +365,7 @@ article h2 {
     display: block;
     float: right;
     background: url("../image/return-to-top-icon.png") no-repeat;
+    min-height: 22px;
     padding-left: 25px;
 }
 
