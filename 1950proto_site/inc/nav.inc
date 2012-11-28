@@ -43,7 +43,6 @@
             </div>
             <ul class="submenu">
                 <li class="subitem"><a href="lecture04.shtml#review-html5-assignment">Review HTML5 assignment</a></li>
-                <li class="subitem"><a href="lecture04.shtml#markup-quiz">Markup Quiz</a></li>    
                 <li class="subitem"><a href="lecture04.shtml#css-concepts">CSS Concepts</a></li>
                 <li class="subitem"><a href="lecture04.shtml#exercises">Exercises</a></li>
                 <li class="subitem"><a href="lecture04.shtml#specificity">Specificity</a></li>
