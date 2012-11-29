@@ -22,5 +22,5 @@
 	</div>
 </header>
 <div id="logo">
-	<img src="image/bcit-logo.jpg" alt="bcit logo" />
+	<a href="index.shtml"><img src="image/bcit-logo.jpg" alt="bcit logo" /></a>
 </div>
